@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        *{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    font-size: 23px;
+    margin: 40px;
+}
+.form-group input{
+    width: 32VW;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 21px;
+margin-top: 27px;
+}
+select{
+    width: 32VW;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 21px;
+    margin-top: 27px;
+}
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+    </style> -->
+</head>
+<body>
+    <div class="container">
+        <div id="contact-box">
+            <form action="/" method="post">
+                <div class="form-group">
+                    <label for="name">NAME * </label>
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Your Answer">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">E-MAIL * </label>
+                    <div>
+                        <input type="text" name="email" id="e-mail" placeholder="enter your e-mail">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone Number * </label>
+                    <div>
+                        <input type="text" name="phonenumber" id="phone number" placeholder="enter your phone Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">AGE * </label>
+                    <div>
+                        <input type="text" name="age" id="age" placeholder="enter your phone Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Highest Level of Education">Highest Level of Education * </label>
+                    <div>
+            <select name="degree">
+                    <option value="bachelors">bachlors</option>
+                    <option value="masters">masters</option>
+                    <option value="diploma">diploma</option>
+                </select>
+            </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Institute where you completed highest Level of Education * </label>
+                    <div>
+                        <input type="text" name="institute" id="institute" placeholder="Your Answer">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">What did you study * </label>
+                    <div>
+                        <input type="text" name="stream" id="study" placeholder="Your Answer">
+                    </div>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+    </div>
+</body>
+</html>
